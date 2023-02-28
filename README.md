@@ -6,7 +6,7 @@ This todoMvc template should help get you started developing with Vue 3 in Vite.
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## create database && connect
+## Create database & connection
 /*
  Navicat Premium Data Transfer
 
@@ -45,13 +45,13 @@ INSERT INTO `list` VALUES (63, '去吃冰淇淋', 0);
 
 SET FOREIGN_KEY_CHECKS = 1;
 
-## run
+## Run ssr
 ### yarn install
 
 ### yarn build
 
 ### nodemon .\server.js
 
-### http://localhost:5173/#/
+### http://localhost:3000/#/
 
 ![image.png](https://github.com/factory011/perFileServer/blob/main/Other/todos.png?raw=true)
