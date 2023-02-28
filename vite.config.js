@@ -52,7 +52,7 @@ export default defineConfig({
         },
       ],
     }),
-    // 引入Vant UI
+    // 引入组件
     Components({
       dirs: ["src/components"],
       extensions: ["vue"],
