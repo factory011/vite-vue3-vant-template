@@ -45,12 +45,13 @@ INSERT INTO `list` VALUES (63, '去吃冰淇淋', 0);
 
 SET FOREIGN_KEY_CHECKS = 1;
 
-## yarn install
+## run
+### yarn install
 
-## yarn dev
+### yarn build
 
-## nodemon .\server.js
+### nodemon .\server.js
 
-## http://localhost:5173/#/
+### http://localhost:5173/#/
 
 ![image.png](https://github.com/factory011/perFileServer/blob/main/Other/todos.png?raw=true)

@@ -2,7 +2,7 @@ import axios from 'axios'
 import qs from 'querystring'
 
 // 根据环境变量 统一设置 域名 前缀
-axios.defaults.baseURL = '/api'
+axios.defaults.baseURL = import.meta.env.MODE === 'production' ? '' : '/api'
 // 设置超时时间
 axios.defaults.timeout = 10000
 

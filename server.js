@@ -61,7 +61,7 @@ request("put", "/updateStatus", "update list set checked=?");
 // 删除
 request("delete", "/delete", "delete from list where rowId=?");
 
-// app.use(express.static('./dist'))
+app.use(express.static('./dist'))
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
